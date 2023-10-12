@@ -1,0 +1,25 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+        "userId": {
+            "description": "..................",
+            "type": "integer"
+        },
+        "id": {
+            "description": "..................",
+            "type": "integer"
+        },
+        "title": {
+            "type": "string",
+            "description": "...................."
+        },
+        "body": {
+            "type": "string",
+            "description": "...................."
+        }
+    },
+    "required": ["userId", "id","title","body"]
+  }
+}

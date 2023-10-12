@@ -1,0 +1,29 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+        "postId": {
+            "description": "..................",
+            "type": "integer"
+        },
+        "id": {
+            "description": "..................",
+            "type": "integer"
+        },
+        "name": {
+            "type": "string",
+            "description": "...................."
+        },
+        "email": {
+            "type": "string",
+            "description": "...................."
+        },
+        "body": {
+            "type": "string",
+            "description": "...................."
+        }
+    },
+    "required": ["postId", "id","name","email","body"]
+  }
+}
