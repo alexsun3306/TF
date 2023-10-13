@@ -140,8 +140,10 @@ public class SampleRestfulApiTesting {
 	  AssertJUnit.assertTrue(r.timeIn(TimeUnit.MILLISECONDS)<2000);
 	  //other type of additional field extractions
 	  System.out.println(r.then().extract().headers());
-	  //System.out.println((String)r.then().extract().path("title"));
-	  
+	  /*did not implement biz logic check, but can be done
+	  System.out.println((String)r.then().extract().path("id"));
+	  such as validate id must be the same value as in request... 
+	  */ 
   }
 	  
   /*
