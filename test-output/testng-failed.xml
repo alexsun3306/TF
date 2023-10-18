@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test_pack.SampleRestfulApiTesting">
+      <class name="test_pack.Ep2Validator">
         <methods>
-          <include name="simple_validation" invocation-numbers="3 4"/>
+          <include name="validateEp" invocation-numbers="1"/>
         </methods>
-      </class> <!-- test_pack.SampleRestfulApiTesting -->
+      </class> <!-- test_pack.Ep2Validator -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,7 @@
+[
+	["positive","/posts/3",""],
+	["negative","/posts?3",""],
+	["negative","/posts/-1",""],
+	["negative","/posts/1000000000000",""],
+	["negative","/posts/1a",""]
+]
