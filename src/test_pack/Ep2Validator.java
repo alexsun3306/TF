@@ -27,7 +27,8 @@ public class Ep2Validator extends EndpointValidator {
 	public	Response	validatePositive(String s2,String s3)
 	{
 		Response r = super.validatePositive(s2, s3);
-		//Object[]	map = r.then().extract().as(Object[].class);
+		LinkedHashMap	obj = (LinkedHashMap)r.then().extract().as(Object.class);
+		Assert.assertEquals(obj.get("id"),Integer.valueOf(s3));
 		return r;
 	}
 	

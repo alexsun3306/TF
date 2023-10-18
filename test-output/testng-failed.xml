@@ -5,7 +5,7 @@
     <classes>
       <class name="test_pack.Ep2Validator">
         <methods>
-          <include name="validateEp" invocation-numbers="1"/>
+          <include name="validateEp" invocation-numbers="0"/>
         </methods>
       </class> <!-- test_pack.Ep2Validator -->
     </classes>
