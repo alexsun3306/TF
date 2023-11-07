@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test">
+  <test thread-count="20" name="Test" parallel="methods">
+	  <classes>
+		  <class name="test_pack.PostsValidationPost"></class>
+		  <class name="test_pack.PostsValidatorDelete"></class>
+		  <class name="test_pack.PostsValidatorGet"></class>
+		  <class name="test_pack.PostsValidatorPatch"></class>
+		  <class name="test_pack.PostsValidatorPut"></class>
+		  <class name="test_pack.CommentsValidatorGet"></class>
+	  </classes>
+	  
   </test> <!-- Test -->
 </suite> <!-- Suite -->

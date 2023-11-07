@@ -1,12 +1,15 @@
 package test_pack;
 
 public enum EndpointName {
-	EP1,
-	EP2,
-	EP3,
-	EP4,
-	EP5,
-	EP6,
-	EP7,
-	EP8
+	EP_POSTS("https://jsonplaceholder.typicode.com/posts"),
+	EP_COMMENTS("https://jsonplaceholder.typicode.com/comments");
+	private	String	url;
+	private	EndpointName(String url)
+	{
+		this.url = url;
+	}
+	public	String	getUrl()
+	{
+		return this.url;
+	}
 }

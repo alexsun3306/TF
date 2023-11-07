@@ -6,7 +6,7 @@
     "properties": {
         "userId": {
             "description": "..................",
-            "type": "integer"
+            "type": "string"
         },
         "id": {
             "description": "..................",

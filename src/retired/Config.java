@@ -1,8 +1,10 @@
-package test_pack;
+package retired;
 
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
+
+import test_pack.EndpointName;
 
 import java.io.IOException;
 import java.io.Reader;
