@@ -1,9 +1,0 @@
-[
-	["positive","/posts",""],
-	["negative","?posts",""],
-	["negative","?posts/",""],
-	["negative","//posts",""],
-	["positive","/posts/",""],
-	["negative","/post",""],
-	["negative","?post",""]
-]
